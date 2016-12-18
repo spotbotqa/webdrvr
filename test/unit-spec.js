@@ -1,5 +1,5 @@
 var path = require('path');
-var phantomjs = require('phantomjs');
+var phantomjs = require('phantomjs-prebuilt');
 
 var webdrvrLibPath = path.dirname(require.resolve('../lib/index.js'));
 var webdrvrModule = require('../lib/index.js');
